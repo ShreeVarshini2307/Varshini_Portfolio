@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Shree Varshini portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <h2 class="logo">Shree Varshini</h2>
+      <nav>
+        <ul>
+          <li><a href="#header_txt" class="hov">Home</a></li>
+          <li><a href="#about" class="hov">About</a></li>
+          <li><a href="#Skills" class="hov">Skills</a></li>
+          <li><a href="#project" class="hov">Projects</a></li>
+          <li><a href="#contact" class="hov">Contact</a></li>
+          <li><button style="font-size: 20px;font-weight: lighter; border: none; cursor: pointer; color: rgb(30, 30, 30);" onclick="darkmode()"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="header_txt">
+      <div class="txt">
+        <p>Software Developer</p>
+        <h1>Hi I'm <span>Shree Varshini</span></h1>
+        <br />
+        <h4>
+          An undergraduate student pursuing Electronics and Instrumentation Engineering at
+          Sri Ramakrishna Engineering College
+        </h4>
+
+        <div class="socialmedia">
+          <a href="https://www.instagram.com/varshini_maheshkumar?igsh=MWh0NWRhNThhMTl4Zw=="
+            ><i class="fa-brands fa-instagram iconhov"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/shree-varshini-r-m-185838298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+            ><i class="fa-brands fa-linkedin-in iconhov"></i
+          ></a>
+          <a href="./SHREE VARSHINI R M.pdf" download="Shree Varshini's CV">
+            <button class="Download-cv">Download Cv</button>
+          </a>
+        </div>
+      </div>
+      <div class="photo1">
+        <img src="./SHREE VARSHINI R M.jpg" style="object-fit: contain" />
+      </div>
+    </div>
+
+    <!-- --------------->
+    <div class="about" id="about">
+      <div class="abtext">
+        <h1>ABOUT<span>ME</span></h1>
+        <p>
+          I am <span>Shree Varshini</span>, currently pursuing a Bachelor's degree in Electronics and Instrumentation Engineering at Sri Ramakrishna Engineering College, Coimbatore. I’m a motivated and curious student with a strong interest in programming, problem-solving and exploring how technology works. I have a strong expertise in C and Java programming. I also have strong foundations in Linear data structures and algorithms and Object oriented programming system. My interest in Sensors and Transducers has strengthened my analytical thinking and deepened my understanding of real-world applications. I enjoy learning new concepts, improving my skills and taking on challenges that help me grow personally and professionally. I aim to build a meaningful career where I can contribute to impactful and innovative engineering solutions.<br />
+        </p>
+      </div>
+      <div class="photo2">
+        <img
+          src="./Screenshot 2024-01-09 001748.png"
+          style="border-radius: 10px; object-fit: contain"
+        />
+      </div>
+    </div>
+    <div class="skills" id="Skills">
+      <div class="abtext">
+        <h1>SKILLS <span>!</span></h1>
+      </div>
+      <div class="content">
+        <ul>
+          <li><h3 class="hov">C </h3></li>
+          <li><h3 class="hov">JAVA</h3></li>
+          <li><h3 class="hov">SQL</h3></li>
+          <li><h3 class="hov">MATLAB</h3></li>
+        </ul>
+      </div>
+      
+    </div>
+    <!-- project  -->
+    <div class="project" id="project">
+      <div class="projecttxt">
+        <h1><span>My </span>project</h1>
+      </div>
+      <div class="boxcontain">
+        <div class="pro1">
+          <h3>Project <span>1</span></h3>
+          <div class="box">
+            <h3> Patient centric intelligent medicine dispenser</h3>
+            <p>
+              The project integrates both solid and liquid pharmaceuticals in a single device. It includes a remainder system and real-time patient monitoring for enhanced healthcare management.
+              Tech stack: ESP32, IR sensor
+
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="pro2">
+          <h3>Project <span>2</span></h3>
+          <div class="box">
+            <h3>Proactive Surveillance and Intervention to prevent Boiler Explosions</h3>
+            <p>The project develops an IoT-enabled device to monitor boiler operations, detecting steam leaks, real-time monitoring, automated alerts and ensuring safety by comparing temperatures.
+                
+              Tech stack: Arduino UNO, DS18B20 (Temperature) sensor
+            </p>
+
+          </div>
+        </div>
+
+        <div class="pro3">
+          <h3>Project <span>3</span></h3>
+          <div class="box">
+            <h3>Enhanced dumper safety and efficiency through IOT - based Tyre monitoring</h3>
+            <p>
+              The project develops an IoT-based tyre monitoring system enabling real-time pressure and temperature tracking with mobile alerts, enhancing dumper safety, minimizing breakdowns, reducing maintenance costs.
+            Tech stack: ESP32, IR sensor.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <form action="#" style="margin-left: 25px">
+        <div class="contact-text">
+          <h1>Contact <span>Me </span>!</h1>
+        </div>
+        <div class="name contact-detail">
+          <label for="Name">Name</label>
+          <input type="text" id="Name" placeholder="Type your Name" />
+        </div>
+        <div class="email contact-detail">
+          <label for="email">Email Id</label>
+          <input type="email" id="email" placeholder="Type Your Email-Id" />
+        </div>
+        <div class="msg contact-detail">
+          <label for="message-box">Leave a message</label>
+          <input type="text" id="message-box" placeholder="" />
+          <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea> -->
+        </div>
+        <div class="submit-btn" style="margin-top: 20px">
+          <button>Send</button>
+        </div>
+      </form>
+    </div>
+    <!-- <script>
+      function darkmode() {
+  // document.getElementById("demo").innerHTML = "Hello World";
+  // background-color: rgb(17, 32, 21);
+  // document.querySelector('body').style.backgroundColor="rgb(17, 32, 21)";
+}
+    </script> -->
+  </body>
+  <footer
+    style="
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+    "
+  >
+    <p>
+      <i class="fa-solid fa-location-dot" style="color: rgb(178, 99, 162)"></i>
+      Coimbatore-641017
+    </p>
+
+    <h4 style="font-weight: 5"></h4>
+  </footer>
+  <div class="upbuton">
+    <button ><a href="#header_txt"><i class="fa-solid fa-arrow-up" style="color: black;"></i></a></button>
+  </div>
+</html>
